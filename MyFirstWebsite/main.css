@@ -1,0 +1,135 @@
+body
+{
+    font-family: monospace;
+}
+
+ul
+{
+    font-family: helvetica;
+}
+#kop
+{
+    font-weight: bold;
+}
+.item
+{
+    list-style: circle;
+}
+.light-theme
+{
+    background:pink;
+    color: black;
+}
+.dark-theme
+{
+    background:black;
+    color: pink;
+}
+/* Styling contact details */
+.contact-theme
+{
+    background:green;
+    line-height: 0.8;
+}
+.contactheaders
+{
+    font-family: Verdana;
+    font-weight: bold;
+    color:black;
+}
+.contactdetails
+{
+    font-family: Verdana;
+    font-weight: bold;
+    color:blue;
+    
+}
+/* Styling about details */
+.about-theme
+{
+    background:green;
+    line-height: 0.8;
+}
+.aboutheaders
+{
+    font-family: Verdana;
+    font-weight: bold;
+    color:black;
+}
+/* Style the links inside the navigation menu */
+
+.topnav .first{
+    top: 25px;
+    left: 20px;
+    width: 15px;
+    border: white solid 1px;
+    margin: 2px;
+    margin-bottom: 3px;
+}
+
+.topnav .second{
+    top: 45px;
+    left: 20px;
+    width: 15px;
+    border: white solid 1px;
+    margin: 2px;
+    margin-bottom: 3px;
+}
+
+.topnav .third{
+    top: 65px;
+    left: 20px;
+    width: 15px;
+    border: white solid 1px;
+    margin: 2px;
+    margin-bottom: 3px;
+}
+.topnav a
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border: 1px solid white;
+     
+}
+.topnav ul
+{
+    list-style-type: none;
+    padding-inline-start: 0px;
+    position: relative;
+    vertical-align: top;
+    display: none;
+}
+.topnav ul ul
+{
+    display: none;
+    position: absolute;
+}
+.topnav ul > li:hover > ul
+{
+    display: inherit;
+    display: inline-block 
+}
+.topnav ul>li
+{
+    vertical-align: top;
+    /*display: inline-block;*/
+    
+}
+a:hover
+{
+    background-color: white;
+    color: black;
+}
+
+#hamburger
+{
+    display: none;
+}
+#hamburger:checked + ul
+{
+    display: block;
+}

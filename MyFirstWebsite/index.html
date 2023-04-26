@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex's Website</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="app.js"></script>
+    <noscript>Your browser does not support Javascript</noscript>
+
+<body class="dark-theme">
+    <nav class="topnav">
+        <label for="hamburger">&equiv;</label>
+        <input type="checkbox" id="hamburger"/>
+        <div id="hamburgermenu" onclick="displayMenu()">
+            <div class="first"></div>
+            <div class="second"></div>
+            <div class="third"></div>
+        </div>
+        <ul id="mainmenu">
+            <li><a href="index.html">Home</a></li> 
+            <li><a href="#">Cursus aanbod</a>
+                <ul>
+                    <li><a href="#">CSS</a></li>
+                    <li><a href="#">HTML</a></li>
+                    <li><a href="#">Javascript</a></li>
+                </ul>
+            </li>    
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+
+    <h1>To-Do Lijst</h1>
+    <p id="kop">Huidge taken</p>
+    <ul>
+        <li class="item">HTML Training volgen</li>
+        <li class="item">CSS Training volgen</li>
+        <li class="item">Java Training volgen</li>
+    </ul>
+    <button onclick="darkMode()">Darkmode</button>
+    <button onclick="lightMode()">Lightmode</button>
+
+    <img src="images/bloemen.jpg" alt="uitprobeersel">
+</body>
+</head>
+</html>
+
