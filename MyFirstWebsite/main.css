@@ -1,20 +1,40 @@
-body
-{
+body {
     font-family: monospace;
 }
-
-ul
-{
+.column {
+    float: left
+}
+.left {
+    width: 30%;
+}
+.right {
+    width: 30%;
+}
+.aside {
+    width: 40%;
+}
+footer {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+ul {
     font-family: helvetica;
 }
-#kop
-{
+#kop {
     font-weight: bold;
 }
-.item
+.check
 {
+    list-style: none;
+    
+}
+.item{
     list-style: circle;
 }
+
+
 .light-theme
 {
     background:pink;
@@ -116,8 +136,17 @@ ul
 .topnav ul>li
 {
     vertical-align: top;
+    
     /*display: inline-block;*/
     
+}
+
+div.container{
+    text-align: center;
+}
+ul.cursus{
+    display: inline-block;
+    text-align: left;
 }
 a:hover
 {

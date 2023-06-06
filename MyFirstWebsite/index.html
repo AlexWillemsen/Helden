@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="main.css">
     <script src="app.js"></script>
     <noscript>Your browser does not support Javascript</noscript>
-
+</head>
 <body class="dark-theme">
     <nav class="topnav">
         <label for="hamburger">&equiv;</label>
@@ -22,28 +22,50 @@
             <li><a href="index.html">Home</a></li> 
             <li><a href="#">Cursus aanbod</a>
                 <ul>
-                    <li><a href="#">CSS</a></li>
-                    <li><a href="#">HTML</a></li>
-                    <li><a href="#">Javascript</a></li>
+                         <li><a href="#">CSS</a></li>
+                         <li><a href="#">HTML</a></li>
+                         <li><a href="#">Javascript</a></li>
                 </ul>
+                </div>
             </li>    
             <li><a href="contact.html">Contact</a></li>
             <li><a href="about.html">About</a></li>
         </ul>
     </nav>
-
-    <h1>To-Do Lijst</h1>
-    <p id="kop">Huidge taken</p>
-    <ul>
-        <li class="item">HTML Training volgen</li>
-        <li class="item">CSS Training volgen</li>
-        <li class="item">Java Training volgen</li>
-    </ul>
-    <button onclick="darkMode()">Darkmode</button>
-    <button onclick="lightMode()">Lightmode</button>
-
-    <img src="images/bloemen.jpg" alt="uitprobeersel">
+    <div class="column">
+        <div class="column left">
+            <!-- Left_Side_Section -->
+            <h1>To-Do Lijst Werk</h1>
+            <p id="kop">Huidge taken</p>
+            <ul>
+                <li class="item" >HTML Training volgen</li>
+                <li class="item">CSS Training volgen</li>
+                <li class="item">Java Training volgen</li>
+            </ul>
+        </div> 
+        <div class="column right">
+            <!-- Middle_Section -->
+            <h1>To-Do Lijst Thuis</h1>
+            <p id="kop">Huidge taken</p>
+                <ul>
+                    <input type="checkbox" value="1-1">HTML</input>
+                    <input type="checkbox" value="1-2">CSS</input>
+                    <input type="checkbox" value="1-3">JAVA</input>
+                    <button onclick="save()">Save</button>
+                    <button onclick="load_()">Load</button>
+                </ul>
+        </div>    
+        <div class="column aside">
+            <h1>Plaatjes Afdeling</h1>
+            <p>Even iets uitproberen</p>
+            <img src="images/bloemen.jpg" alt="Wat een mooie bloemen">
+    </div>
+    <footer class="footer">
+        <button onclick="darkMode()">Darkmode</button>
+        <button onclick="lightMode()">Lightmode</button>
+    </footer>
+    
 </body>
-</head>
 </html>
+
 
